@@ -11,7 +11,7 @@
     "PPP"
   ],
   "key": {
-    "S": { "tag": "tfc:rock/raw" },
+    "S": { "tag": "c:stones/raw" },
     "R": { "item": "minecraft:redstone_block" },
     "P": { "item": "minecraft:piston" }
   },

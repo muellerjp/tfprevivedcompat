@@ -5,8 +5,8 @@
   ],
   "type": "create:compacting",
   "ingredients": [
-    { "item": "minecraft:gold_nugget" },
-    { "tag": "tfc:rock/gravel" },
+    { "tag": "c:nuggets/gold" },
+    { "tag": "c:gravels" },
     { "type": "fluid_stack", "amount": 250, "fluid": "minecraft:lava" }
   ],
   "results": [{ "count": 1, "id": "create:ochrum" }]

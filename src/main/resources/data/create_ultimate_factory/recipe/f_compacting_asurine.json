@@ -7,7 +7,7 @@
   "ingredients": [
     { "item": "create:zinc_nugget" },
     { "item": "create:zinc_nugget" },
-    { "tag": "tfc:rock/gravel" },
+    { "tag": "c:gravels" },
     { "type": "fluid_stack", "amount": 250, "fluid": "minecraft:water" }
   ],
   "results": [{ "count": 1, "id": "create:asurine" }]

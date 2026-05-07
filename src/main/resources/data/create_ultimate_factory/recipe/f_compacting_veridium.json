@@ -12,7 +12,7 @@
     { "item": "create:copper_nugget" },
     { "item": "create:copper_nugget" },
     { "item": "create:copper_nugget" },
-    { "tag": "tfc:rock/gravel" },
+    { "tag": "c:gravels" },
     { "type": "fluid_stack", "amount": 250, "fluid": "minecraft:lava" }
   ],
   "results": [{ "count": 1, "id": "create:veridium" }]

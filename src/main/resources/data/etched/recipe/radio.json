@@ -9,7 +9,7 @@
     "C": { "tag": "c:ingots/copper" },
     "I": { "tag": "c:ingots/iron" },
     "N": { "item": "minecraft:note_block" },
-    "P": [{ "tag": "tfc:wood/planks" }, { "tag": "afc:wood/planks" }],
+    "P": { "tag": "minecraft:planks" },
     "R": { "tag": "c:dusts/redstone" }
   },
   "pattern": [

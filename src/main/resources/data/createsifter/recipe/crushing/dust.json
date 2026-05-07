@@ -4,7 +4,7 @@
     { "type": "neoforge:mod_loaded", "modid": "createsifter" }
   ],
   "type": "create:crushing",
-  "ingredients": [{ "tag": "tfc:sand" }],
+  "ingredients": [{ "tag": "c:sands" }],
   "processing_time": 100,
   "results": [{ "id": "createsifter:dust" }]
 }

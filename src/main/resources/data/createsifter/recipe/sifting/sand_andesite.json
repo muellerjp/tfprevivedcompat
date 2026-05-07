@@ -4,7 +4,7 @@
     { "type": "neoforge:mod_loaded", "modid": "createsifter" }
   ],
   "type": "createsifter:sifting",
-  "input": { "tag": "tfc:sand" },
+  "input": { "tag": "c:sands" },
   "mesh": { "count": 1, "id": "createsifter:andesite_mesh" },
   "processingTime": 500,
   "results": [

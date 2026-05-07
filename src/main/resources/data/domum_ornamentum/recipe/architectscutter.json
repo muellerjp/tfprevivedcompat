@@ -7,7 +7,7 @@
   "category": "equipment",
   "key": {
     "L": { "tag": "minecraft:logs" },
-    "S": { "tag": "tfc:rock/smooth_slabs" },
+    "S": { "tag": "c:stones/smooth_slabs" },
     "X": { "tag": "c:ingots/iron" }
   },
   "pattern": [

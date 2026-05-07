@@ -5,8 +5,8 @@
   ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    { "tag": "tfc:rock/smooth_slabs" },
-    { "tag": "tfc:rock/smooth" }
+    { "tag": "c:stones/smooth_slabs" },
+    { "tag": "c:stones/smooth" }
   ],
   "result": { "id": "bellsandwhistles:station_platform", "count": 2 }
 }

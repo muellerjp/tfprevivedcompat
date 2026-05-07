@@ -1,4 +1,4 @@
-{
+﻿{
   "neoforge:conditions": [
     { "type": "neoforge:mod_loaded", "modid": "tfc" },
     { "type": "neoforge:mod_loaded", "modid": "gravestone" }
@@ -10,7 +10,7 @@
     "DDD"
   ],
   "key": {
-    "C": { "tag": "tfc:rock/cobble" },
+    "C": { "tag": "c:cobblestones/normal" },
     "D": { "tag": "c:dirt" }
   },
   "result": {

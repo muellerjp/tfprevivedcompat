@@ -8,7 +8,7 @@
   "key": {
     "D": { "tag": "c:gems/diamond" },
     "I": { "tag": "c:ingots/iron" },
-    "P": [{ "tag": "tfc:wood/planks" }, { "tag": "afc:wood/planks" }]
+    "P": { "tag": "minecraft:planks" }
   },
   "pattern": [
     " DI",

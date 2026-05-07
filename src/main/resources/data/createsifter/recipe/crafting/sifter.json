@@ -10,7 +10,7 @@
     "C": { "item": "create:cogwheel" },
     "P": { "tag": "c:stones" },
     "S": { "item": "minecraft:stick" },
-    "W": [{ "tag": "tfc:wood/planks" }, { "tag": "afc:wood/planks" }]
+    "W": { "tag": "minecraft:planks" }
   },
   "pattern": ["WAW", "SCS", " P "],
   "result": { "count": 1, "id": "createsifter:sifter" }

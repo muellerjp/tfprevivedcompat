@@ -8,7 +8,7 @@
   "key": {
     "I": { "tag": "c:ingots/iron" },
     "S": { "item": "sophisticatedstorage:smelting_upgrade" },
-    "T": { "tag": "tfc:rock/smooth" }
+    "T": { "tag": "c:stones/smooth" }
   },
   "pattern": [
     "III",
