@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "mcwlights" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "group": "small_chandelier",
+  "pattern": ["CAC", "BAB"],
+  "key": {
+    "A": { "tag": "c:ingots/iron" },
+    "B": { "item": "minecraft:honeycomb" },
+    "C": { "item": "minecraft:string" }
+  },
+  "result": { "count": 1, "id": "mcwlights:iron_small_chandelier" }
+}

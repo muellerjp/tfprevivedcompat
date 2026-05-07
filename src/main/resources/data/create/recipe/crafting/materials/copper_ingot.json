@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "create" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": { "tag": "c:nuggets/copper" }
+  },
+  "pattern": ["CCC", "CCC", "CCC"],
+  "result": { "count": 1, "id": "tfc:metal/ingot/copper" }
+}

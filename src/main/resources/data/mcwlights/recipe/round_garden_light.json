@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "mcwlights" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "group": "garden_lights",
+  "pattern": [" L ", "LLL", " I "],
+  "key": {
+    "L": { "item": "minecraft:glowstone_dust" },
+    "I": { "tag": "c:ingots/iron" }
+  },
+  "result": { "count": 1, "id": "mcwlights:round_garden_light" }
+}

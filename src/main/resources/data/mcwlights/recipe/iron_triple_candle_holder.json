@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "mcwlights" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "group": "triple_candle_holder",
+  "pattern": ["CCC", "BBB", " A "],
+  "key": {
+    "A": { "tag": "c:ingots/iron" },
+    "B": { "item": "minecraft:honeycomb" },
+    "C": { "item": "minecraft:string" }
+  },
+  "result": { "count": 1, "id": "mcwlights:iron_triple_candle_holder" }
+}

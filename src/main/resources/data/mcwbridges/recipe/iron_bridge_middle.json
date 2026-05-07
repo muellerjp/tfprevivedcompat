@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "mcwbridges" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["A A", "A A", "III"],
+  "key": {
+    "A": { "tag": "c:nuggets/iron" },
+    "I": { "tag": "c:ingots/iron" }
+  },
+  "result": { "count": 1, "id": "mcwbridges:iron_bridge" }
+}

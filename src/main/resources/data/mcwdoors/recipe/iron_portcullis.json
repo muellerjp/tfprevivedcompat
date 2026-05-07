@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "mcwdoors" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "group": "portcullis",
+  "pattern": ["AAA", "BBB"],
+  "key": {
+    "A": { "item": "tfc:metal/bars/wrought_iron" },
+    "B": { "tag": "c:ingots/iron" }
+  },
+  "result": { "count": 3, "id": "mcwdoors:iron_portcullis" }
+}

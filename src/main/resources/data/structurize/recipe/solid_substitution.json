@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "structurize" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" WS", "WIW", "SW "],
+  "key": {
+    "W": { "tag": "minecraft:logs" },
+    "I": { "tag": "c:ingots/iron" },
+    "S": { "tag": "c:rods/wooden" }
+  },
+  "result": { "id": "structurize:blocksolidsubstitution", "count": 32 }
+}

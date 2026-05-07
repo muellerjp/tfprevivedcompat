@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "mcwlights" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" N ", "NLN", " I "],
+  "key": {
+    "N": { "tag": "c:nuggets/iron" },
+    "L": { "item": "minecraft:lava_bucket" },
+    "I": { "tag": "c:ingots/iron" }
+  },
+  "result": { "count": 1, "id": "mcwlights:lava_lamp" }
+}

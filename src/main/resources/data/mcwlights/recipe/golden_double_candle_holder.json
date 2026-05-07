@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "mcwlights" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "group": "double_candle_holder",
+  "pattern": ["C C", "BAB", " A "],
+  "key": {
+    "A": { "tag": "c:ingots/gold" },
+    "B": { "item": "minecraft:honeycomb" },
+    "C": { "item": "minecraft:string" }
+  },
+  "result": { "count": 1, "id": "mcwlights:golden_double_candle_holder" }
+}
