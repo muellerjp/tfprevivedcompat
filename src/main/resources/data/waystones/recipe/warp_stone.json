@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "waystones" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": { "item": "tfc:gem/amethyst" },
+    "E": { "item": "minecraft:ender_pearl" },
+    "G": { "tag": "c:gems/emerald" }
+  },
+  "pattern": [
+    "DED",
+    "EGE",
+    "DED"
+  ],
+  "result": {
+    "count": 1,
+    "id": "waystones:warp_stone"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "createcolonies" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": { "item": "structurize:sceptergold" },
+    "C": { "item": "create:andesite_casing" },
+    "P": [{ "tag": "tfc:wood/planks" }, { "tag": "afc:wood/planks" }]
+  },
+  "pattern": ["PBP", "PCP", "PPP"],
+  "result": { "count": 1, "id": "createcolonies:schematic_table" }
+}

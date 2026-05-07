@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "bellsandwhistles" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "group": "pilots",
+  "pattern": [" I ", "# #", "III"],
+  "key": {
+    "#": { "item": "tfc:metal/sheet/wrought_iron" },
+    "I": { "item": "minecraft:iron_nugget" }
+  },
+  "result": { "id": "bellsandwhistles:metal_pilot" }
+}

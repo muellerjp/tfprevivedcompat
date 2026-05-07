@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "gravestone" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C  ",
+    "C  ",
+    "DDD"
+  ],
+  "key": {
+    "C": { "tag": "tfc:rock/cobble" },
+    "D": { "tag": "c:dirt" }
+  },
+  "result": {
+    "id": "gravestone:gravestone",
+    "count": 1
+  },
+  "mirrored": true
+}

@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "create" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": { "tag": "c:nuggets/zinc" }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": { "count": 1, "id": "tfc:metal/ingot/zinc" }
+}

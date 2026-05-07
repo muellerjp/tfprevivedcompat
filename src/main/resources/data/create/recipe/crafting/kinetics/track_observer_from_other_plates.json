@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "create" }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "create:railway_casing" },
+    [
+      { "tag": "tfc:rock/smooth" },
+      { "item": "minecraft:polished_blackstone_pressure_plate" },
+      { "item": "minecraft:heavy_weighted_pressure_plate" },
+      { "item": "minecraft:light_weighted_pressure_plate" }
+    ]
+  ],
+  "result": { "count": 2, "id": "create:track_observer" }
+}

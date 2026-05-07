@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "etched" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": { "tag": "c:ingots/copper" },
+    "I": { "tag": "c:ingots/iron" },
+    "N": { "item": "minecraft:note_block" },
+    "P": [{ "tag": "tfc:wood/planks" }, { "tag": "afc:wood/planks" }],
+    "R": { "tag": "c:dusts/redstone" }
+  },
+  "pattern": [
+    "RCR",
+    "INI",
+    "PPP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "etched:radio"
+  }
+}

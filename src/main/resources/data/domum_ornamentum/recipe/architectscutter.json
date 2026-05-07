@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "domum_ornamentum" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": { "tag": "minecraft:logs" },
+    "S": { "tag": "tfc:rock/smooth_slabs" },
+    "X": { "tag": "c:ingots/iron" }
+  },
+  "pattern": [
+    " X ",
+    "SSS",
+    "LLL"
+  ],
+  "result": { "count": 1, "id": "domum_ornamentum:architectscutter" }
+}

@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "create_ultimate_factory" }
+  ],
+  "type": "create:compacting",
+  "ingredients": [
+    { "item": "create:zinc_nugget" },
+    { "item": "create:zinc_nugget" },
+    { "tag": "tfc:rock/gravel" },
+    { "type": "fluid_stack", "amount": 250, "fluid": "minecraft:water" }
+  ],
+  "results": [{ "count": 1, "id": "create:asurine" }]
+}

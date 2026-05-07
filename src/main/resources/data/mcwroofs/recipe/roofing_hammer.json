@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "mcwroofs" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" I ", " NN", "S  "],
+  "key": {
+    "S": { "item": "minecraft:stick" },
+    "N": { "tag": "c:nuggets/iron" },
+    "I": { "tag": "c:ingots/iron" }
+  },
+  "result": { "count": 1, "id": "mcwroofs:roofing_hammer" }
+}

@@ -1,0 +1,12 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "bellsandwhistles" }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "tag": "tfc:rock/smooth_slabs" },
+    { "tag": "tfc:rock/smooth" }
+  ],
+  "result": { "id": "bellsandwhistles:station_platform", "count": 2 }
+}

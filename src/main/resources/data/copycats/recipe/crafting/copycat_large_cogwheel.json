@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    { "type": "copycats:feature_enabled", "feature": "copycats:copycat_large_cogwheel" },
+    { "type": "neoforge:mod_loaded", "modid": "tfc" }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "create:large_cogwheel" },
+    { "item": "create:large_cogwheel" },
+    { "item": "create:large_cogwheel" },
+    { "item": "create:large_cogwheel" },
+    { "item": "tfc:metal/ingot/zinc" }
+  ],
+  "result": { "count": 4, "id": "copycats:copycat_large_cogwheel" }
+}

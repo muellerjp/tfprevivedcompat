@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "create" }
+  ],
+  "type": "create:pressing",
+  "ingredients": [
+    { "tag": "c:ingots/iron" }
+  ],
+  "results": [
+    { "id": "tfc:metal/sheet/wrought_iron" }
+  ]
+}

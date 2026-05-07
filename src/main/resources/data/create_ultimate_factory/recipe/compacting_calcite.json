@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "create_ultimate_factory" }
+  ],
+  "type": "create:compacting",
+  "ingredients": [
+    { "tag": "tfc:rock/gravel" },
+    { "item": "minecraft:bone_meal" },
+    { "item": "minecraft:bone_meal" },
+    { "item": "minecraft:bone_meal" }
+  ],
+  "results": [{ "id": "minecraft:calcite" }]
+}

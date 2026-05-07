@@ -1,0 +1,9 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "bellsandwhistles" }
+  ],
+  "type": "minecraft:stonecutting",
+  "ingredient": { "tag": "tfc:rock/smooth" },
+  "result": { "count": 2, "id": "bellsandwhistles:station_platform" }
+}

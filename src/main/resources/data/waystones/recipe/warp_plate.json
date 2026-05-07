@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "waystones" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": { "item": "waystones:dormant_shard" },
+    "S": { "tag": "tfc:rock/bricks" },
+    "W": { "item": "waystones:warp_dust" }
+  },
+  "pattern": [
+    "SWS",
+    "WFW",
+    "SWS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "waystones:warp_plate"
+  }
+}

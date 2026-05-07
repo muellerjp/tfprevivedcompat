@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[0,)"
+license = "MIT"
+
+[[mods]]
+modId = "tfprevived_compat"
+version = "${mod_version}"
+displayName = "TerraFirmaPunk Revived Compat"
+authors = "Jan"
+description = '''Recipe compatibility for the TerraFirmaPunk Revived modpack.'''
+
+[[dependencies.tfprevived_compat]]
+modId = "neoforge"
+type = "required"
+versionRange = "${neo_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tfprevived_compat]]
+modId = "minecraft"
+type = "required"
+versionRange = "[${minecraft_version},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tfprevived_compat]]
+modId = "tfc"
+type = "required"
+versionRange = "[3.0,)"
+ordering = "AFTER"
+side = "BOTH"

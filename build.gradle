@@ -1,0 +1,42 @@
+plugins {
+    id 'net.neoforged.moddev' version '2.0.107'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+group   = 'com.jan.tfprevivedcompat'
+version = System.getenv('VERSION') ?: project.findProperty('mod_version') ?: '1.0.0-indev'
+
+base {
+    archivesName = 'tfprevived-compat'
+}
+
+neoForge {
+    version = neoForgeVersion
+
+    mods {
+        create('tfprevived_compat') {
+            sourceSet sourceSets.main
+        }
+    }
+
+    runs {
+        client { client() }
+        server {
+            server()
+            programArgument '--nogui'
+        }
+    }
+}
+
+tasks.withType(ProcessResources).configureEach {
+    def replaceProperties = [
+        mod_version       : project.version,
+        neo_version_range : "[${neoForgeVersion},)",
+        minecraft_version : minecraftVersion,
+    ]
+    inputs.properties replaceProperties
+    filesMatching(['META-INF/neoforge.mods.toml']) {
+        expand replaceProperties
+    }
+}

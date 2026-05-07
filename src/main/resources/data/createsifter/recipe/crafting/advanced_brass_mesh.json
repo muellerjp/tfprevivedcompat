@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "createsifter" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "M": { "item": "createsifter:brass_mesh" },
+    "S": { "item": "tfc:metal/sheet/brass" }
+  },
+  "pattern": [" S ", "SMS", " S "],
+  "result": { "count": 1, "id": "createsifter:advanced_brass_mesh" }
+}

@@ -1,0 +1,12 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "bellsandwhistles" }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "tfc:metal/sheet/wrought_iron" },
+    { "item": "minecraft:green_dye" }
+  ],
+  "result": { "id": "bellsandwhistles:metro_casing", "count": 4 }
+}
