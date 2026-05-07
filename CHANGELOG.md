@@ -6,6 +6,7 @@ All notable changes are documented here.
 ### Bug Fixes
 - **workflows**: Added write permissions to release; fixed branchnames and added proper versioning to build.yml
 - **logo**: Making the background transparent
+- **LOGO**: Changing image format to alpha capable
 
 ## [0.1.2] - 2026-05-07
 
