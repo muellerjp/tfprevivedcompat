@@ -9,6 +9,8 @@ displayName = "TerraFirmaPunk Revived Compat"
 authors = "Mr.101Freaking"
 description = '''Recipe compatibility for the TerraFirmaPunk Revived modpack.'''
 
+# ── Required dependencies ─────────────────────────────────────────────────────
+
 [[dependencies.tfprevived_compat]]
 modId = "neoforge"
 type = "required"
@@ -27,5 +29,156 @@ side = "BOTH"
 modId = "tfc"
 type = "required"
 versionRange = "[3.0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+# ── Optional dependencies — load ordering only ────────────────────────────────
+# AFTER means tfprevived_compat loads after each of these mods.
+# This puts our data pack higher in the stack so our recipe overrides win.
+
+[[dependencies.tfprevived_compat]]
+modId = "create"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tfprevived_compat]]
+modId = "copycats"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tfprevived_compat]]
+modId = "bellsandwhistles"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tfprevived_compat]]
+modId = "createcolonies"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tfprevived_compat]]
+modId = "createsifter"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tfprevived_compat]]
+modId = "create_confectionery"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tfprevived_compat]]
+modId = "create_dragons_plus"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tfprevived_compat]]
+modId = "create_enchantment_industry"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tfprevived_compat]]
+modId = "create_sa"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tfprevived_compat]]
+modId = "create_ultimate_factory"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tfprevived_compat]]
+modId = "domum_ornamentum"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tfprevived_compat]]
+modId = "etched"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tfprevived_compat]]
+modId = "gravestone"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tfprevived_compat]]
+modId = "mcwbridges"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tfprevived_compat]]
+modId = "mcwroofs"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tfprevived_compat]]
+modId = "mcwwindows"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tfprevived_compat]]
+modId = "minecolonies"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tfprevived_compat]]
+modId = "multipiston"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tfprevived_compat]]
+modId = "sophisticatedstorage"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tfprevived_compat]]
+modId = "structurize"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tfprevived_compat]]
+modId = "waystones"
+type = "optional"
+versionRange = "*"
 ordering = "AFTER"
 side = "BOTH"
