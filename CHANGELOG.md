@@ -4,6 +4,11 @@ All notable changes are documented here.
 ## [Unreleased]
 
 ### Bug Fixes
+- **mod_config**: Ensuring that the mod is loaded last so that all recipes are overwritten correctly
+
+## [0.1.4] - 2026-05-07
+
+### Bug Fixes
 - **recipes**: Fixed stones, gravels, sands, planks and nuggets
 
 ## [0.1.3] - 2026-05-07
