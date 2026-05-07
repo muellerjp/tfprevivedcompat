@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="LOGO.jpg" alt="TerraFirmaPunk Revived Compat" width="512">
+</p>
+
 # TerraFirmaPunk Revived Compat
 
 A NeoForge 1.21.1 data mod that makes every crafting recipe in the **TerraFirmaPunk Revived - ColoniesEdition** modpack completable using only resources provided by [TerraFirmaCraft](https://modrinth.com/mod/terrafirmacraft) (TFC).

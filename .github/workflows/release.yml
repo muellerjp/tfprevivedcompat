@@ -34,8 +34,8 @@ jobs:
         uses: Kir-Antipov/mc-publish@v3.3
         with:
           # TODO: fill in CurseForge / Modrinth project IDs once the project is published
-          # curseforge-id: xxxxxxxx
-          # curseforge-token: ${{ secrets.CURSEFORGE_API_KEY }}
+          curseforge-id: 1536193
+          curseforge-token: ${{ secrets.CURSEFORGE_API_KEY }}
           # modrinth-id: xxxxxxxx
           # modrinth-token: ${{ secrets.MODRINTH_API_KEY }}
 

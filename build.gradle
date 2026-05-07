@@ -4,7 +4,7 @@ plugins {
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
-group   = 'com.jan.tfprevivedcompat'
+group   = 'com.mr101freaking.tfprevivedcompat'
 version = System.getenv('VERSION') ?: project.findProperty('mod_version') ?: '1.0.0-indev'
 
 base {

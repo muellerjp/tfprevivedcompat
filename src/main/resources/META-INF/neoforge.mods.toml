@@ -6,7 +6,7 @@ license = "MIT"
 modId = "tfprevived_compat"
 version = "${mod_version}"
 displayName = "TerraFirmaPunk Revived Compat"
-authors = "Jan"
+authors = "Mr.101Freaking"
 description = '''Recipe compatibility for the TerraFirmaPunk Revived modpack.'''
 
 [[dependencies.tfprevived_compat]]
