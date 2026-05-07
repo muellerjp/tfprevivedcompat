@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="LOGO.jpg" alt="TerraFirmaPunk Revived Compat" width="512">
+  <img src="LOGO.png" alt="TerraFirmaPunk Revived Compat" width="512">
 </p>
 
 # TerraFirmaPunk Revived Compat
