@@ -6,6 +6,7 @@ All notable changes are documented here.
 ### Bug Fixes
 - **mod_config**: Ensuring that the mod is loaded last so that all recipes are overwritten correctly
 - **recipes**: Trying to fix everything using metals
+- **recipes**: Introducing custom tags to separate tfc bricks, slab and walls by mossy and not mossy; fixing all recipes using minecraft:stone_bricks
 
 ## [0.1.4] - 2026-05-07
 
