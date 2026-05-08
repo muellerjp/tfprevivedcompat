@@ -5,18 +5,12 @@
   ],
   "type": "minecraft:crafting_shaped",
   "category": "misc",
+  "pattern": [ "DSD", "SWS", "BBB" ],
   "key": {
-    "O": { "item": "minecraft:obsidian" },
     "S": { "tag": "tfprevived_compat:stone_bricks" },
+    "B": { "tag": "c:stones/smooth" },
+    "D": { "tag": "c:dyes/pink" },
     "W": { "item": "waystones:warp_stone" }
   },
-  "pattern": [
-    " S ",
-    "SWS",
-    "OOO"
-  ],
-  "result": {
-    "count": 1,
-    "id": "waystones:waystone"
-  }
+  "result": { "count": 1, "id": "waystones:pink_portstone" }
 }

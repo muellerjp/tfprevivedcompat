@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "mcwpaths" }
+  ],
+  "type": "minecraft:stonecutting",
+  "ingredient": { "tag": "tfprevived_compat:stone_bricks" },
+  "result": { "count": 1, "id": "mcwpaths:stone_running_bond" },
+  "group": "blocks"
+}

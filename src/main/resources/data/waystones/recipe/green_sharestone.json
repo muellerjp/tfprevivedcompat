@@ -5,18 +5,12 @@
   ],
   "type": "minecraft:crafting_shaped",
   "category": "misc",
+  "pattern": [ "SSS", "DWD", "OOO" ],
   "key": {
-    "O": { "item": "minecraft:obsidian" },
     "S": { "tag": "tfprevived_compat:stone_bricks" },
+    "D": { "tag": "c:dyes/green" },
+    "O": { "item": "minecraft:obsidian" },
     "W": { "item": "waystones:warp_stone" }
   },
-  "pattern": [
-    " S ",
-    "SWS",
-    "OOO"
-  ],
-  "result": {
-    "count": 1,
-    "id": "waystones:waystone"
-  }
+  "result": { "count": 1, "id": "waystones:green_sharestone" }
 }

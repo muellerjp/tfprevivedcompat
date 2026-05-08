@@ -7,7 +7,7 @@
   "category": "misc",
   "key": {
     "O": { "item": "minecraft:obsidian" },
-    "S": { "tag": "minecraft:stone_bricks" },
+    "S": { "tag": "tfprevived_compat:stone_bricks/mossy" },
     "W": { "item": "waystones:warp_stone" }
   },
   "pattern": [

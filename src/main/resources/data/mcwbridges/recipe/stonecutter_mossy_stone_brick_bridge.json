@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "mcwbridges" }
+  ],
+  "type": "minecraft:stonecutting",
+  "ingredient": { "tag": "tfprevived_compat:stone_bricks/mossy" },
+  "result": { "count": 1, "id": "mcwbridges:mossy_stone_brick_bridge" },
+  "group": "stonecutting"
+}

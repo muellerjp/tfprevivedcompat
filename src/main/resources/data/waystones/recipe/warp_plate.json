@@ -7,7 +7,7 @@
   "category": "misc",
   "key": {
     "F": { "item": "waystones:dormant_shard" },
-    "S": { "tag": "minecraft:stone_bricks" },
+    "S": { "tag": "tfprevived_compat:stone_bricks" },
     "W": { "item": "waystones:warp_dust" }
   },
   "pattern": [
