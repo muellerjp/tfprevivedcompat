@@ -8,7 +8,7 @@
   "key": {
     "L": { "tag": "minecraft:logs" },
     "S": { "tag": "c:stones/smooth_slabs" },
-    "X": { "tag": "c:ingots/iron" }
+    "X": { "tag": "c:ingots/copper" }
   },
   "pattern": [
     " X ",
