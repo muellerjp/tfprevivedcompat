@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "starbunclemania" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": { "tag": "c:ingots/iron" },
+    "N": { "tag": "c:nuggets/iron" }
+  },
+  "pattern": [ " N ", "I I", "NIN" ],
+  "result": { "count": 1, "id": "starbunclemania:star_bin" }
+}

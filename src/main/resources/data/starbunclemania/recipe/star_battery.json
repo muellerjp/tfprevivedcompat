@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "starbunclemania" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": { "tag": "c:ingots/copper" },
+    "N": { "tag": "c:nuggets/gold" },
+    "R": { "item": "minecraft:redstone" }
+  },
+  "pattern": [ " N ", "CRC", "CRC" ],
+  "result": { "count": 1, "id": "starbunclemania:star_battery" }
+}

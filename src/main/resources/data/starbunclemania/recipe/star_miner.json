@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "starbunclemania" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": { "tag": "c:nuggets/gold" },
+    "I": { "tag": "c:ingots/iron" },
+    "L": { "item": "minecraft:leather_helmet" }
+  },
+  "pattern": [ "III", "ILI", "GGG" ],
+  "result": { "count": 1, "id": "starbunclemania:star_miner" }
+}

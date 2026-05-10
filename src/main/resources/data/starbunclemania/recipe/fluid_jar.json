@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "starbunclemania" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": { "item": "ars_nouveau:blue_archwood_log" },
+    "G": { "item": "minecraft:glass" },
+    "I": { "tag": "c:ingots/gold" },
+    "W": { "item": "ars_nouveau:water_essence" }
+  },
+  "pattern": [ " I ", "GWG", "CCC" ],
+  "result": { "count": 1, "id": "starbunclemania:fluid_jar" }
+}
