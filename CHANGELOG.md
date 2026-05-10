@@ -4,6 +4,15 @@ All notable changes are documented here.
 ## [Unreleased]
 
 ### Bug Fixes
+- **recipes**: Add wrought iron to the gobal iron ingot tag, enabling all minecraft iron recipes; updated .gitignore
+- **recipes**: Add minecolonies hut blocks
+- **recipes**: Ingot related recipes for ars ocultas, ars elemental, starbunclemania, occultism
+- **recipe**: Architectures cutter
+- **recipes**: Add vanilla furnace and smoker for minecolonies
+
+## [0.1.5] - 2026-05-08
+
+### Bug Fixes
 - **mod_config**: Ensuring that the mod is loaded last so that all recipes are overwritten correctly
 - **recipes**: Trying to fix everything using metals
 - **recipes**: Introducing custom tags to separate tfc bricks, slab and walls by mossy and not mossy; fixing all recipes using minecraft:stone_bricks
