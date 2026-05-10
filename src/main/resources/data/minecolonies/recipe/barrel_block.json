@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "minecolonies" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": { "tag": "tfc:dirt" },
+    "S": { "tag": "c:ingots/iron" },
+    "T": { "item": "structurize:sceptergold" },
+    "W": { "tag": "minecraft:planks" }
+  },
+  "pattern": [ "WTW", "WGW", "WSW" ],
+  "result": { "count": 1, "id": "minecolonies:barrel_block" }
+}

@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "minecolonies" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": { "item": "minecolonies:compost" },
+    "X": { "tag": "tfc:dirt" }
+  },
+  "pattern": [ "XXX", "XPX", "XXX" ],
+  "result": { "count": 1, "id": "minecolonies:composted_dirt" }
+}

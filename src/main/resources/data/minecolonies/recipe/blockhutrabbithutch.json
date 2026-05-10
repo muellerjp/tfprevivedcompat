@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "minecolonies" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": { "item": "structurize:sceptergold" },
+    "X": { "tag": "minecraft:planks" },
+    "B": { "item": "tfc:food/rabbit" }
+  },
+  "pattern": [ "XTX", "XBX", "XXX" ],
+  "result": { "count": 1, "id": "minecolonies:blockhutrabbithutch" }
+}

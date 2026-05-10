@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "minecolonies" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": { "item": "structurize:sceptergold" },
+    "X": { "tag": "minecraft:planks" },
+    "B": [
+      { "item": "tfc:food/maize" },
+      { "item": "tfc:food/wheat" },
+      { "item": "tfc:food/barley" },
+      { "item": "tfc:food/oat" },
+      { "item": "tfc:food/rye" },
+      { "item": "tfc:food/rice" }
+    ]
+  },
+  "pattern": [ "XTX", "XBX", "XXX" ],
+  "result": { "count": 1, "id": "minecolonies:blockhutbaker" }
+}
