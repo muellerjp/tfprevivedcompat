@@ -4,6 +4,11 @@ All notable changes are documented here.
 ## [Unreleased]
 
 ### Bug Fixes
+- **structurize**: Make buildtool accessible immediatly
+
+## [0.1.6] - 2026-05-10
+
+### Bug Fixes
 - **recipes**: Add wrought iron to the gobal iron ingot tag, enabling all minecraft iron recipes; updated .gitignore
 - **recipes**: Add minecolonies hut blocks
 - **recipes**: Ingot related recipes for ars ocultas, ars elemental, starbunclemania, occultism
