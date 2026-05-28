@@ -7,8 +7,8 @@
   "group": "stone_bridges",
   "pattern": [ "F F", "WWW" ],
   "key": {
-    "F": { "tag": "tfprevived_compat:stone_brick_walls" },
-    "W": { "tag": "tfprevived_compat:stone_brick_slabs" }
+    "F": { "tag": "tfprevived_compat:stone_brick_walls/normal" },
+    "W": { "tag": "tfprevived_compat:stone_brick_slabs/normal" }
   },
   "result": { "count": 4, "id": "mcwbridges:stone_brick_bridge" }
 }

@@ -1,4 +1,4 @@
-{
+﻿{
   "neoforge:conditions": [
     { "type": "neoforge:mod_loaded", "modid": "tfc" },
     { "type": "neoforge:mod_loaded", "modid": "mcwwindows" }
@@ -7,8 +7,8 @@
   "group": "arrow_slit",
   "pattern": [ " AA", " BB", " AA" ],
   "key": {
-    "A": { "tag": "tfprevived_compat:stone_bricks" },
-    "B": { "tag": "tfprevived_compat:stone_brick_slabs" }
+    "A": { "tag": "tfprevived_compat:stone_bricks/normal" },
+    "B": { "tag": "tfprevived_compat:stone_brick_slabs/normal" }
   },
   "result": { "count": 3, "id": "mcwwindows:stone_brick_arrow_slit" }
 }

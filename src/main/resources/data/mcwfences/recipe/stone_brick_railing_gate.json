@@ -1,4 +1,4 @@
-{
+﻿{
   "neoforge:conditions": [
     { "type": "neoforge:mod_loaded", "modid": "tfc" },
     { "type": "neoforge:mod_loaded", "modid": "mcwfences" }
@@ -8,7 +8,7 @@
   "pattern": [ "ABA", "ABA" ],
   "key": {
     "A": { "item": "tfc:metal/bars/wrought_iron" },
-    "B": { "tag": "tfprevived_compat:stone_bricks" }
+    "B": { "tag": "tfprevived_compat:stone_bricks/normal" }
   },
   "result": { "count": 1, "id": "mcwfences:stone_brick_railing_gate" }
 }

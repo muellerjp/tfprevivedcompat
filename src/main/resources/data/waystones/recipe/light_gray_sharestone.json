@@ -1,4 +1,4 @@
-{
+﻿{
   "neoforge:conditions": [
     { "type": "neoforge:mod_loaded", "modid": "tfc" },
     { "type": "neoforge:mod_loaded", "modid": "waystones" }
@@ -7,7 +7,7 @@
   "category": "misc",
   "pattern": [ "SSS", "DWD", "OOO" ],
   "key": {
-    "S": { "tag": "tfprevived_compat:stone_bricks" },
+    "S": { "tag": "tfprevived_compat:stone_bricks/normal" },
     "D": { "tag": "c:dyes/light_gray" },
     "O": { "item": "minecraft:obsidian" },
     "W": { "item": "waystones:warp_stone" }

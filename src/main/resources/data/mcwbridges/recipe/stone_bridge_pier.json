@@ -1,4 +1,4 @@
-{
+﻿{
   "neoforge:conditions": [
     { "type": "neoforge:mod_loaded", "modid": "tfc" },
     { "type": "neoforge:mod_loaded", "modid": "mcwbridges" }
@@ -7,8 +7,8 @@
   "group": "stone_piers",
   "pattern": [ "WFW" ],
   "key": {
-    "F": { "tag": "tfprevived_compat:stone_brick_walls" },
-    "W": { "tag": "tfprevived_compat:stone_bricks" }
+    "F": { "tag": "tfprevived_compat:stone_brick_walls/normal" },
+    "W": { "tag": "tfprevived_compat:stone_bricks/normal" }
   },
   "result": { "count": 3, "id": "mcwbridges:stone_bridge_pier" }
 }

@@ -1,4 +1,4 @@
-{
+﻿{
   "neoforge:conditions": [
     { "type": "neoforge:mod_loaded", "modid": "tfc" },
     { "type": "neoforge:mod_loaded", "modid": "occultism" }
@@ -6,7 +6,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    { "tag": "tfprevived_compat:stone_bricks" },
+    { "tag": "tfprevived_compat:stone_bricks/normal" },
     { "item": "occultism:nature_paste" }
   ],
   "result": { "count": 1, "id": "minecraft:mossy_stone_bricks" }
