@@ -4,6 +4,16 @@ All notable changes are documented here.
 ## [Unreleased]
 
 ### Bug Fixes
+- **tags**: Regrouping tags and adding couple new tag groups
+- **minecolonies**: Minor rebalancing and retiering of hutblocks, fixed gold related recipes
+
+
+### Features
+- **minecolonies**: Adapting minecolonies research for the modpack, using tfc items instead of vanilla and some rebalancing
+
+## [0.1.7] - 2026-05-24
+
+### Bug Fixes
 - **structurize**: Make buildtool accessible immediatly
 
 ## [0.1.6] - 2026-05-10
