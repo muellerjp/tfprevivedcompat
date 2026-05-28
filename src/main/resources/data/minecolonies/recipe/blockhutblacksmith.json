@@ -6,7 +6,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "B": { "tag": "c:ingots/iron" },
+    "B": { "tag": "tfprevived_compat:bronze/ingots" },
     "T": { "item": "structurize:sceptergold" },
     "X": { "tag": "minecraft:planks" }
   },

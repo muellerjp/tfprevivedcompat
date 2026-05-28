@@ -7,7 +7,7 @@
   "category": "misc",
   "key": {
     "G": { "tag": "tfc:dirt" },
-    "S": { "tag": "c:ingots/iron" },
+    "S": { "tag": "tfprevived_compat:bronze/ingots" },
     "T": { "item": "structurize:sceptergold" },
     "W": { "tag": "minecraft:planks" }
   },

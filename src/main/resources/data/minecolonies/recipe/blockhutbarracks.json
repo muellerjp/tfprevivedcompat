@@ -8,7 +8,7 @@
   "key": {
     "T": { "item": "structurize:sceptergold" },
     "X": { "tag": "minecraft:planks" },
-    "B": { "tag": "c:storage_blocks/wrought_iron" }
+    "B": { "item": "tfprevived_compat:bronze/blocks" }
   },
   "pattern": [ "XTX", "XBX", "XXX" ],
   "result": { "count": 1, "id": "minecolonies:blockhutbarracks" }
