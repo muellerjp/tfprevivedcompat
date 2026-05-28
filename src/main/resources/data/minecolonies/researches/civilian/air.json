@@ -1,0 +1,19 @@
+{
+  "branch": "minecolonies:civilian",
+  "costs": [
+    {
+      "count": 1,
+      "tag": "tfc:tide_pool_blocks"
+    }
+  ],
+  "effects": [
+    {
+      "id": "minecolonies:effects/air",
+      "level": 1
+    }
+  ],
+  "icon": "minecraft:potion",
+  "parentResearch": "minecolonies:civilian/ambition",
+  "researchLevel": 2,
+  "sortOrder": 1
+}

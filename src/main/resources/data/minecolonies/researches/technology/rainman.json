@@ -1,0 +1,23 @@
+{
+  "branch": "minecolonies:technology",
+  "costs": [
+    {
+      "count": 2,
+      "item": "tfc:metal/bucket/red_steel"
+    },
+    {
+      "count": 2,
+      "item": "tfc:metal/bucket/blue_steel"
+    }
+  ],
+  "effects": [
+    {
+      "id": "minecolonies:effects/workinginrainunlock",
+      "level": 1
+    }
+  ],
+  "icon": "minecraft:splash_potion",
+  "parentResearch": "minecolonies:technology/rtm",
+  "researchLevel": 6,
+  "subtitle": "com.minecolonies.research.technology.rainman.subtitle"
+}
