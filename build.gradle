@@ -2,6 +2,14 @@ plugins {
     id 'net.neoforged.moddev' version '2.0.107'
 }
 
+repositories {
+    maven {
+        name = 'LDTTeam - Modding'
+        url = 'https://ldtteam.jfrog.io/ldtteam/modding/'
+        content { includeGroupByRegex 'com\\.ldtteam.*' }
+    }
+}
+
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
 group   = 'com.mr101freaking.tfprevivedcompat'
@@ -27,6 +35,15 @@ neoForge {
             programArgument '--nogui'
         }
     }
+}
+
+dependencies {
+    // MineColonies API — compile-only so we can reference MC events; not shipped with the mod.
+    // The mod.toml declares minecolonies as an optional runtime dependency.
+    // Structurize is a transitive dependency of minecolonies and resolves automatically.
+    compileOnly "com.ldtteam:minecolonies:1.1.1300-1.21.1"
+    compileOnly "com.ldtteam:structurize:1.0.810-1.21.1-snapshot"
+    compileOnly "com.ldtteam:blockui:1.0.199-1.21.1-snapshot"
 }
 
 tasks.withType(ProcessResources).configureEach {

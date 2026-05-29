@@ -6,9 +6,9 @@
   "type": "recipe",
   "crafter": "mechanic_crafting",
   "inputs": [
-    { "count": 5, "id": "tfc:metal/ingot/wrought_iron" }
+    { "count": 5, "id": "tfc:wood/log/palm" }
   ],
   "intermediate": "minecraft:air",
-  "result": { "id": "minecolonies:gate_iron" },
+  "result": { "id": "minecolonies:gate_wood" },
   "show-tooltip": true
 }
