@@ -10,6 +10,7 @@ All notable changes are documented here.
 
 ### Features
 - **minecolonies**: Adapting minecolonies research for the modpack, using tfc items instead of vanilla and some rebalancing
+- **minecolonies**: Added advancements and a bridge to hook hqm quests into advancements; changed gate recipes
 
 ## [0.1.7] - 2026-05-24
 
