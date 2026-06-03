@@ -5,7 +5,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "G": { "item": "tfc:metal/nugget/gold" },
+    "G": { "item": "minecraft:gold_nugget" },
     "C": { "item": "tfc:food/carrot" }
   },
   "pattern": [ "GGG", "GCG", "GGG" ],
