@@ -4,6 +4,12 @@ All notable changes are documented here.
 ## [Unreleased]
 
 ### Bug Fixes
+- **DO**: Add tfc metal blocks with and without weathering
+- **recipe**: Fixed oversight on golden carrot
+
+## [0.1.8] - 2026-05-29
+
+### Bug Fixes
 - **tags**: Regrouping tags and adding couple new tag groups
 - **minecolonies**: Minor rebalancing and retiering of hutblocks, fixed gold related recipes
 
