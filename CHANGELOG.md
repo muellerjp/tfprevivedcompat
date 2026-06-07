@@ -4,6 +4,11 @@ All notable changes are documented here.
 ## [Unreleased]
 
 ### Bug Fixes
+- **DO**: Adding smooth stone and metal grates to DO
+
+## [0.1.9] - 2026-06-03
+
+### Bug Fixes
 - **DO**: Add tfc metal blocks with and without weathering
 - **recipe**: Fixed oversight on golden carrot
 
