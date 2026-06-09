@@ -5,6 +5,7 @@ All notable changes are documented here.
 
 ### Bug Fixes
 - **DO**: Adding smooth stone and metal grates to DO
+- **DO**: Make tfc rocks available for DO
 
 ## [0.1.9] - 2026-06-03
 
