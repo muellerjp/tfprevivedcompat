@@ -4,6 +4,11 @@ All notable changes are documented here.
 ## [Unreleased]
 
 ### Bug Fixes
+- **hay**: Removing hay_block and patching all recipes to use tfc:thatch; reason: balancing
+
+## [0.1.10] - 2026-06-09
+
+### Bug Fixes
 - **DO**: Adding smooth stone and metal grates to DO
 - **DO**: Make tfc rocks available for DO
 
