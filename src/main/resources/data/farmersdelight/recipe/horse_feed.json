@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "farmersdelight" }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      { "item": "farmersdelight:rice_bale" },
+      { "item": "tfc:thatch" }
+    ],
+    { "tag": "c:foods/apple" },
+    { "tag": "c:foods/apple" },
+    { "item": "minecraft:golden_carrot" }
+  ],
+  "result": { "count": 1, "id": "farmersdelight:horse_feed" }
+}

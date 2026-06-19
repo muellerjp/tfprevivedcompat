@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "mcwroofs" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "group": "attic",
+  "pattern": [ " W", "WG" ],
+  "key": {
+    "W": { "item": "tfc:thatch" },
+    "G": { "item": "minecraft:glass" }
+  },
+  "result": { "count": 2, "id": "mcwroofs:thatch_attic_roof" }
+}

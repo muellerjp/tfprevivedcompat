@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "mcwroofs" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "group": "roof",
+  "pattern": [ " W", "WS" ],
+  "key": {
+    "W": { "item": "tfc:thatch" },
+    "S": { "item": "minecraft:stick" }
+  },
+  "result": { "count": 2, "id": "mcwroofs:thatch_roof" }
+}
