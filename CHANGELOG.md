@@ -1,7 +1,7 @@
 # Changelog
 
 All notable changes are documented here.
-## [Unreleased]
+## [0.1.11] - 2026-06-19
 
 ### Bug Fixes
 - **hay**: Removing hay_block and patching all recipes to use tfc:thatch; reason: balancing
