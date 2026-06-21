@@ -1,6 +1,11 @@
 # Changelog
 
 All notable changes are documented here.
+## [Unreleased]
+
+### Bug Fixes
+- **minecolonies**: Make minecolonies diseases healable with tfc items
+
 ## [0.1.11] - 2026-06-19
 
 ### Bug Fixes
