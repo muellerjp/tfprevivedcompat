@@ -1,0 +1,14 @@
+{
+	"name": "com.minecolonies.coremod.diseases.influenza",
+	"rarity": 100,
+	"items": [
+		{
+			"id": "tfc:food/carrot",
+			"count": 1
+		},
+		{
+			"id": "tfc:food/potato",
+			"count": 1
+		}
+	]
+}
