@@ -1,6 +1,8 @@
 package com.yourname.tfprevivedcompat.mixin;
 
+import net.dries007.tfc.common.blockentities.InventoryBlockEntity;
 import net.dries007.tfc.common.blockentities.QuernBlockEntity;
+import net.dries007.tfc.common.blockentities.TFCBlockEntity;
 import net.dries007.tfc.common.recipes.QuernRecipe;
 import net.dries007.tfc.util.Helpers;
 import net.minecraft.core.registries.Registries;
@@ -11,7 +13,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.neoforged.neoforge.items.IItemHandlerModifiable;
-import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.Unique;
@@ -32,6 +33,12 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
  * <p>Scope is data-driven via the {@code #tfprevived_compat:quern_batchable} item tag, which by
  * default points at {@code #c:ores/chunks} (the tfcorewashing chunk items). Even if the tag is
  * widened, only items that <em>also</em> have a quern recipe are affected.
+ *
+ * <p>Implementation note: {@code markForSync()} and {@code getInventory()} are inherited from
+ * {@link TFCBlockEntity} / {@link InventoryBlockEntity}. Mixin's {@code @Shadow} resolves against
+ * the direct target class only (with no refmap in a Mojmap runtime), so inherited members are
+ * reached via casts to their declaring superclass instead of {@code @Shadow}. Only
+ * {@code recipeTimer}, declared directly in {@link QuernBlockEntity}, is shadowed.
  */
 @Mixin(QuernBlockEntity.class)
 public abstract class QuernBlockEntityMixin
@@ -45,11 +52,7 @@ public abstract class QuernBlockEntityMixin
         ResourceLocation.fromNamespaceAndPath("tfprevived_compat", "quern_batchable")
     );
 
-    @Shadow @Final protected IItemHandlerModifiable inventory;
-
     @Shadow private float recipeTimer;
-
-    @Shadow public abstract void markForSync();
 
     @Inject(method = "finishGrinding", at = @At("HEAD"), cancellable = true)
     private void tfprevived$batchGrind(CallbackInfo ci)
@@ -61,6 +64,7 @@ public abstract class QuernBlockEntityMixin
             return;
         }
 
+        final IItemHandlerModifiable inventory = ((InventoryBlockEntity<?>) (Object) this).getInventory();
         final ItemStack inputStack = inventory.getStackInSlot(QuernBlockEntity.SLOT_INPUT);
         if (inputStack.isEmpty() || !inputStack.is(TFPREVIVED$BATCHABLE))
         {
@@ -85,7 +89,7 @@ public abstract class QuernBlockEntityMixin
             inputStack.shrink(1);
         }
 
-        markForSync();
+        ((TFCBlockEntity) (Object) this).markForSync();
         recipeTimer = 0f;
         ci.cancel();
     }
