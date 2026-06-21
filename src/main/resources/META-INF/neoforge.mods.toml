@@ -9,6 +9,10 @@ displayName = "TerraFirmaPunk Revived Compat"
 authors = "Mr.101Freaking"
 description = '''Recipe compatibility for the TerraFirmaPunk Revived modpack.'''
 
+# Mixins — batches the TFC quern so one grind processes up to 4 chunks at once.
+[[mixins]]
+config = "tfprevived_compat.mixins.json"
+
 # ── Required dependencies ─────────────────────────────────────────────────────
 
 [[dependencies.tfprevived_compat]]

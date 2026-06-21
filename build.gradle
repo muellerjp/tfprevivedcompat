@@ -8,6 +8,11 @@ repositories {
         url = 'https://ldtteam.jfrog.io/ldtteam/modding/'
         content { includeGroupByRegex 'com\\.ldtteam.*' }
     }
+    maven {
+        name = 'Modrinth'
+        url = 'https://api.modrinth.com/maven'
+        content { includeGroup 'maven.modrinth' } // TerraFirmaCraft CI fallback
+    }
 }
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
@@ -38,12 +43,28 @@ neoForge {
 }
 
 dependencies {
+    // NOTE: no SpongePowered mixin annotation processor here. It targets the legacy MCP
+    // searge/notch obfuscation and fails under NeoForge's Mojang mappings. NeoForge applies
+    // mixins by their Mojmap names at runtime, so no refmap is generated or needed.
+
     // MineColonies API — compile-only so we can reference MC events; not shipped with the mod.
     // The mod.toml declares minecolonies as an optional runtime dependency.
     // Structurize is a transitive dependency of minecolonies and resolves automatically.
     compileOnly "com.ldtteam:minecolonies:1.1.1300-1.21.1"
     compileOnly "com.ldtteam:structurize:1.0.810-1.21.1-snapshot"
     compileOnly "com.ldtteam:blockui:1.0.199-1.21.1-snapshot"
+
+    // TerraFirmaCraft — compile-only, needed by our Mixin into QuernBlockEntity.
+    // TFC is a required runtime dependency (see neoforge.mods.toml) and is provided by the
+    // modpack, so it is NOT shipped with this mod. Names already match Mojang mappings, so no
+    // remapping is required. Prefer a local jar in libs/ (gitignored) for fast offline builds;
+    // otherwise fall back to the Modrinth Maven so clean CI checkouts can still resolve it.
+    def tfcLocalJars = fileTree(dir: 'libs', include: 'TerraFirmaCraft-*.jar')
+    if (!tfcLocalJars.isEmpty()) {
+        compileOnly tfcLocalJars
+    } else {
+        compileOnly "maven.modrinth:terrafirmacraft:${project.findProperty('tfc_maven_version')}"
+    }
 }
 
 tasks.withType(ProcessResources).configureEach {
