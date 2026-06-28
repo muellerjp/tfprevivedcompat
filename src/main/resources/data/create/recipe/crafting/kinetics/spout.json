@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "create" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": { "item": "tfc:food/dried_kelp" },
+    "T": { "item": "create:copper_casing" }
+  },
+  "pattern": ["T", "P"],
+  "result": { "count": 1, "id": "create:spout" }
+}
