@@ -6,6 +6,10 @@ All notable changes are documented here.
 ### Bug Fixes
 - **create**: Fix dried_kelp recipes
 
+
+### Features
+- **wopper**: Add tfc wopper recipes
+
 ## [0.1.13] - 2026-06-21
 
 ### Bug Fixes
