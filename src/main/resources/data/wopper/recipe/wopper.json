@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "wopper" }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "W W",
+    "WCW",
+    " W "
+  ],
+  "key": {
+    "W": { "tag": "tfc:lumber" },
+    "C": { "tag": "tfprevived_compat:tfc_chests" }
+  },
+  "result": {
+    "id": "wopper:wopper",
+    "count": 1
+  }
+}
