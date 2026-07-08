@@ -4,6 +4,11 @@ All notable changes are documented here.
 ## [Unreleased]
 
 ### Bug Fixes
+- **balancing**: Changed sticks from 2 planks to 2 lumber
+
+## [0.1.14] - 2026-06-30
+
+### Bug Fixes
 - **create**: Fix dried_kelp recipes
 
 
