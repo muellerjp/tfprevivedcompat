@@ -4,6 +4,11 @@ All notable changes are documented here.
 ## [Unreleased]
 
 ### Bug Fixes
+- **recipes**: Replacing minecraft:torch with tfc:torch
+
+## [0.1.15] - 2026-07-08
+
+### Bug Fixes
 - **balancing**: Changed sticks from 2 planks to 2 lumber
 
 ## [0.1.14] - 2026-06-30
