@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "create" }
+  ],
+  "type": "create:haunting",
+  "ingredients": [
+    { "item": "tfc:torch" }
+  ],
+  "results": [
+    { "id": "minecraft:soul_torch" }
+  ]
+}

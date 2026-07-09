@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tfc"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mcwlights"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PTP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "T": {
+      "item": "tfc:torch"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "mcwlights:white_paper_lamp"
+  }
+}

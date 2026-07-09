@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tfc"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mcwlights"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "group": "tiki",
+  "pattern": [
+    "N",
+    "I"
+  ],
+  "key": {
+    "N": {
+      "item": "tfc:torch"
+    },
+    "I": {
+      "item": "minecraft:bamboo"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "mcwlights:bamboo_tiki_torch"
+  }
+}
