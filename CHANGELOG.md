@@ -4,6 +4,11 @@ All notable changes are documented here.
 ## [Unreleased]
 
 ### Bug Fixes
+- **balancing**: Reenabling hayblock crafting
+
+## [0.1.16] - 2026-07-09
+
+### Bug Fixes
 - **recipes**: Replacing minecraft:torch with tfc:torch
 
 ## [0.1.15] - 2026-07-08
