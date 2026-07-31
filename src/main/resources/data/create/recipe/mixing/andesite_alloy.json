@@ -5,10 +5,10 @@
   ],
   "type": "create:mixing",
   "ingredients": [
-    { "item": "tfc:rock/raw/andesite" },
+    { "item": "tfc:rock/smooth/andesite" },
     { "tag": "c:nuggets/iron" }
   ],
   "results": [
-    { "id": "create:andesite_alloy" }
+    { "count": 2, "id": "create:andesite_alloy" }
   ]
 }

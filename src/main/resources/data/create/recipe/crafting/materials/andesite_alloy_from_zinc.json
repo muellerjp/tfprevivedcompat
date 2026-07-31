@@ -6,7 +6,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": { "item": "tfc:rock/raw/andesite" },
+    "A": { "item": "tfc:rock/smooth/andesite" },
     "B": { "tag": "c:nuggets/zinc" }
   },
   "pattern": [

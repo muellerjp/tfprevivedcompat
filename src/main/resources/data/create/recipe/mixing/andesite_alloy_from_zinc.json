@@ -5,7 +5,7 @@
   ],
   "type": "create:mixing",
   "ingredients": [
-    { "item": "tfc:rock/raw/andesite" },
+    { "item": "tfc:rock/smooth/andesite" },
     { "tag": "c:nuggets/zinc" }
   ],
   "results": [
