@@ -4,6 +4,11 @@ All notable changes are documented here.
 ## [Unreleased]
 
 ### Bug Fixes
+- **balancing**: Extending dining hall recipe to inlcude all types of tree fruits
+
+## [0.1.18] - 2026-07-31
+
+### Bug Fixes
 - **balancing**: Shifting andesite alloy from raw andesite to smooth andesite
 
 ## [0.1.17] - 2026-07-30
