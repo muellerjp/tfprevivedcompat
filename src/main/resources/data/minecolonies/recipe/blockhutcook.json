@@ -10,7 +10,14 @@
     "X": { "tag": "minecraft:planks" },
     "B": [
       { "item": "tfc:food/red_apple" },
-      { "item": "tfc:food/green_apple" }
+      { "item": "tfc:food/green_apple" },
+      { "item": "tfc:food/banana" },
+      { "item": "tfc:food/cherry" },
+      { "item": "tfc:food/lemon" },
+      { "item": "tfc:food/olive" },
+      { "item": "tfc:food/orange" },
+      { "item": "tfc:food/peach" },
+      { "item": "tfc:food/plum" }
     ]
   },
   "pattern": [ "XTX", "XBX", "XXX" ],
