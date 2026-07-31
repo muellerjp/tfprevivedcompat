@@ -4,6 +4,11 @@ All notable changes are documented here.
 ## [Unreleased]
 
 ### Bug Fixes
+- **balancing**: Shifting andesite alloy from raw andesite to smooth andesite
+
+## [0.1.17] - 2026-07-30
+
+### Bug Fixes
 - **balancing**: Reenabling hayblock crafting
 
 ## [0.1.16] - 2026-07-09
