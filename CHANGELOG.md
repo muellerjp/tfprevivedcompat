@@ -4,6 +4,11 @@ All notable changes are documented here.
 ## [Unreleased]
 
 ### Bug Fixes
+- **lighting**: Adding recipes to miner, mechanic and builder, such that they can create minecraft:torches from tfc:torches. Balancing wise, this is needed because especially the torches in the mine are burning out far to fast.
+
+## [0.1.19] - 2026-07-31
+
+### Bug Fixes
 - **balancing**: Extending dining hall recipe to inlcude all types of tree fruits
 
 ## [0.1.18] - 2026-07-31
