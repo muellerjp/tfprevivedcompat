@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" },
+    { "type": "neoforge:mod_loaded", "modid": "minecolonies" }
+  ],
+  "type": "recipe",
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    { "id": "tfc:torch" }
+  ],
+  "intermediate": "minecraft:air",
+  "result": { "id": "minecraft:torch" },
+  "show-tooltip": true
+}

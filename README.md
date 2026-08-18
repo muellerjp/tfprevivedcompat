@@ -117,6 +117,7 @@ Supply ship deployer: added `afc:wood/boat` alongside `#minecraft:boats`.
 Build Tool (sceptergold): `#minecraft:stone_crafting_materials` → `#tfc:rock/cobble` + `#tfc:rock/raw`.
 Steel scepter: `minecraft:iron_ingot` → `#c:ingots/iron`.
 Shape tool: `minecraft:emerald` → `tfc:gem/emerald`.
+Miner, Builder and Mechanic learn `tfc:torch` → `minecraft:torch` (1:1) — MineColonies hardcodes vanilla torches for mine shafts and blueprints.
 
 ---
 
