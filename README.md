@@ -31,6 +31,15 @@ All other mods listed below are optional. Overrides for each mod only activate w
 
 ## What is covered
 
+### TerraFirmaCraft
+
+| Recipe | Change |
+|--------|--------|
+| Heating kaolin clay → kaolinite powder | yield chance `0.2` → `0.5` |
+| Hardened rock (all 21 rock types) | `tfc:rock/raw/X` → `tfc:rock/cobble/X` + `tfc:rock/mossy_cobble/X`; output `2` → `1` |
+
+---
+
 ### Create
 
 | Recipe | Change |
