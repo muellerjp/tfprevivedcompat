@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "tfc" }
+  ],
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc:kaolin_clay"
+  },
+  "result_item": {
+    "modifiers": [
+      {
+        "type": "tfc:chance",
+        "chance": 0.5
+      }
+    ],
+    "stack": {
+      "count": 1,
+      "id": "tfc:powder/kaolinite"
+    }
+  },
+  "temperature": 500.0
+}
