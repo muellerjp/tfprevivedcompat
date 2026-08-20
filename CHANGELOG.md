@@ -5,6 +5,7 @@ All notable changes are documented here.
 
 ### Bug Fixes
 - **balancing**: Raising kaolinite from .2 to .5 chance from burning clay
+- **balancing**: Crafting hardened rock from cobblestone instead of raw rock
 
 ## [0.1.20] - 2026-08-18
 
