@@ -4,6 +4,11 @@ All notable changes are documented here.
 ## [Unreleased]
 
 ### Bug Fixes
+- **balancing**: Raising kaolinite from .2 to .5 chance from burning clay
+
+## [0.1.20] - 2026-08-18
+
+### Bug Fixes
 - **lighting**: Adding recipes to miner, mechanic and builder, such that they can create minecraft:torches from tfc:torches. Balancing wise, this is needed because especially the torches in the mine are burning out far to fast.
 
 ## [0.1.19] - 2026-07-31
