@@ -3,10 +3,6 @@
 	"rarity": 10,
 	"items": [
 		{
-			"id": "tfc:plant/poppy",
-			"count": 1
-		},
-		{
 			"id": "tfc:plant/dandelion",
 			"count": 1
 		},
