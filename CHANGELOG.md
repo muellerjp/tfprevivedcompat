@@ -4,6 +4,11 @@ All notable changes are documented here.
 ## [Unreleased]
 
 ### Bug Fixes
+- **balancing**: Rebalancing sickness healing, as a glod block per citizen to heal smallpox is to much, especially in early game
+
+## [0.1.21] - 2026-08-20
+
+### Bug Fixes
 - **balancing**: Raising kaolinite from .2 to .5 chance from burning clay
 - **balancing**: Crafting hardened rock from cobblestone instead of raw rock
 
